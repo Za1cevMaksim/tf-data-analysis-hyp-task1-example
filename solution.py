@@ -19,8 +19,8 @@ def solution(x_success: int,
     z = (test_conversion_rate - control_conversion_rate) / SE
 
     if z < -1 * abs(stats.norm.ppf(significance_level / 2)):
-        return False
-    elif z > abs(stats.norm.ppf(significance_level / 2)):
-        return False
-    else:
         return True
+    elif z > abs(stats.norm.ppf(significance_level / 2)):
+        return True
+    else:
+        return False
