@@ -10,7 +10,7 @@ def solution(x_success: int,
              x_cnt: int,
              y_success: int,
              y_cnt: int) -> bool:
-    significance_level = 0.04
+    significance_level = 0.02
     control_conversion_rate = x_success / x_cnt
     test_conversion_rate = y_success / y_cnt
     p = (x_success + y_success) / (x_cnt + y_cnt)
