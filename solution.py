@@ -1,5 +1,5 @@
 import numpy as np
-from scipy.stats import stats
+from scipy import stats
 
 
 chat_id = 461694118
